@@ -45,4 +45,9 @@ public class MethodsResource {
         return mes.getUnstable();
     }
 
+    @GET
+    public List<InvocationStatistics> all() {
+        return this.mes.getRecent();
+    }
+
 }
