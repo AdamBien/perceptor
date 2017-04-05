@@ -7,5 +7,5 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-/perceptor/deploySnapshot.sh
-/perceptor/releaseAndUpload.sh
+deploySnapshot.sh
+releaseAndUpload.sh
