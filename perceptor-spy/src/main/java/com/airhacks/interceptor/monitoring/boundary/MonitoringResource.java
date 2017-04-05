@@ -1,12 +1,12 @@
 package com.airhacks.interceptor.monitoring.boundary;
 
 import com.airhacks.interceptor.monitoring.control.InvocationMonitoring;
-import javax.ejb.Stateless;
+import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.Path;
 
-@Stateless
+@ApplicationScoped
 @Path("monitoring")
 public class MonitoringResource {
 
