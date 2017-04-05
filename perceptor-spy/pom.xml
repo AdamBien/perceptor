@@ -8,7 +8,7 @@
     </parent>    
     <groupId>com.airhacks</groupId>
     <artifactId>perceptor-spy</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
     <description>Performance statistics gathering Interceptor for Java EE with /monitoring/methods REST endpoint</description>
     <url>https://github.com/AdamBien/perceptor</url>
@@ -111,7 +111,8 @@
         <connection>scm:git:git@github.com:AdamBien/perceptor.git</connection>
         <url>scm:git:git@github.com:AdamBien/perceptor.git</url>
         <developerConnection>scm:git:git@github.com:AdamBien/perceptor.git</developerConnection>
-    </scm>    
+      <tag>vs0.0.1</tag>
+  </scm>    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
