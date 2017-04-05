@@ -106,7 +106,6 @@
             </configuration>
         </plugin>
     </plugins>
-        <finalName>perceptor</finalName>
     </build>
     <scm>
         <connection>scm:git:git@github.com:AdamBien/perceptor.git</connection>
