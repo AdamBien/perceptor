@@ -37,4 +37,8 @@ public class Invoker {
         throw new IllegalStateException("Don't call me!");
     }
 
+    public String noOp() {
+        return "+";
+    }
+
 }

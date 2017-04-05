@@ -39,4 +39,10 @@ public class InvocationsResource {
     public String exceptional() {
         return this.invoker.exceptional();
     }
+
+    @GET
+    @Path("noop")
+    public String noOp() {
+        return this.invoker.noOp();
+    }
 }
