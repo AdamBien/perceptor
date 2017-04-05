@@ -52,4 +52,29 @@ public class Invoker {
 
 }
 ```
+
+## statistics API
+
+all method invocations:
+
+`curl http://localhost:8080/fast-and-slow/resources/monitoring/methods`
+
+all method invocations, sorted by timestamp:
+
+`curl http://localhost:8080/fast-and-slow/resources/monitoring/methods/recent`
+
+
+slowest methods:
+
+`curl http://localhost:8080/fast-and-slow/resources/monitoring/methods/slowest`
+
+methods throwing exceptions:
+
+`curl http://localhost:8080/fast-and-slow/resources/monitoring/methods/exceptional`
+
+methods throwing exceptions, sorted by exception amount:
+
+`curl http://localhost:8080/fast-and-slow/resources/monitoring/methods/unstable`
+
+
 See you at [Java EE Performance, Monitoring and Troubleshooting](http://workshops.adam-bien.com/performance.htm) and/or [Java EE Microservices](http://workshops.adam-bien.com/microservices.htm) workshops
